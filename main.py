@@ -22,7 +22,6 @@ class Player:
 		window.blit(self.surface, (self.x_pos, self.y_pos))
 
 	def update(self, value):
-		self.direction = value
 		if value > 0:
 			self.x_pos += 4
 		elif value < 0:
